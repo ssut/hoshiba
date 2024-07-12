@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		300B220C2C40E1DB00CB0250 /* hoshibaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300B220B2C40E1DB00CB0250 /* hoshibaApp.swift */; };
+		300B220E2C40E1DB00CB0250 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300B220D2C40E1DB00CB0250 /* ContentView.swift */; };
+		300B22102C40E1DC00CB0250 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300B220F2C40E1DC00CB0250 /* Assets.xcassets */; };
+		300B22132C40E1DC00CB0250 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 300B22122C40E1DC00CB0250 /* Preview Assets.xcassets */; };
+		300B221B2C40E56300CB0250 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 300B221A2C40E56300CB0250 /* Podfile */; };
+		300B221D2C40E59300CB0250 /* StatusBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300B221C2C40E59300CB0250 /* StatusBarController.swift */; };
+		300B221F2C40E5A100CB0250 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300B221E2C40E5A100CB0250 /* MainController.swift */; };
+		300B22212C40E7B500CB0250 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 300B22202C40E7B500CB0250 /* Info.plist */; };
+		300B22232C40E8D700CB0250 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300B22222C40E8D700CB0250 /* AppDelegate.swift */; };
+		300B22252C40F60A00CB0250 /* DNSCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 300B22242C40F60A00CB0250 /* DNSCache.swift */; };
+		56738FB0970830BAD483CC09 /* Pods_hoshiba.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B897A6D3CC3F48C7D4BA6374 /* Pods_hoshiba.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		300B22082C40E1DB00CB0250 /* hoshiba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hoshiba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		300B220B2C40E1DB00CB0250 /* hoshibaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hoshibaApp.swift; sourceTree = "<group>"; };
+		300B220D2C40E1DB00CB0250 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		300B220F2C40E1DC00CB0250 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		300B22122C40E1DC00CB0250 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		300B22142C40E1DC00CB0250 /* hoshiba.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = hoshiba.entitlements; sourceTree = "<group>"; };
+		300B221A2C40E56300CB0250 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		300B221C2C40E59300CB0250 /* StatusBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBarController.swift; sourceTree = "<group>"; };
+		300B221E2C40E5A100CB0250 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		300B22202C40E7B500CB0250 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		300B22222C40E8D700CB0250 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		300B22242C40F60A00CB0250 /* DNSCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DNSCache.swift; sourceTree = "<group>"; };
+		B897A6D3CC3F48C7D4BA6374 /* Pods_hoshiba.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hoshiba.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E42F16264B9E1D0C1059E94F /* Pods-hoshiba.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hoshiba.release.xcconfig"; path = "Target Support Files/Pods-hoshiba/Pods-hoshiba.release.xcconfig"; sourceTree = "<group>"; };
+		E97244F423999DD6372BC498 /* Pods-hoshiba.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hoshiba.debug.xcconfig"; path = "Target Support Files/Pods-hoshiba/Pods-hoshiba.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		300B22052C40E1DB00CB0250 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56738FB0970830BAD483CC09 /* Pods_hoshiba.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		300B21FF2C40E1DB00CB0250 = {
+			isa = PBXGroup;
+			children = (
+				300B22202C40E7B500CB0250 /* Info.plist */,
+				300B221A2C40E56300CB0250 /* Podfile */,
+				300B220A2C40E1DB00CB0250 /* hoshiba */,
+				300B22092C40E1DB00CB0250 /* Products */,
+				8AAD1AAA67DFD7E68C3AF7F9 /* Pods */,
+				6E0E660F4449CBFF54C039D9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		300B22092C40E1DB00CB0250 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				300B22082C40E1DB00CB0250 /* hoshiba.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		300B220A2C40E1DB00CB0250 /* hoshiba */ = {
+			isa = PBXGroup;
+			children = (
+				300B220B2C40E1DB00CB0250 /* hoshibaApp.swift */,
+				300B220D2C40E1DB00CB0250 /* ContentView.swift */,
+				300B220F2C40E1DC00CB0250 /* Assets.xcassets */,
+				300B22142C40E1DC00CB0250 /* hoshiba.entitlements */,
+				300B22112C40E1DC00CB0250 /* Preview Content */,
+				300B221C2C40E59300CB0250 /* StatusBarController.swift */,
+				300B221E2C40E5A100CB0250 /* MainController.swift */,
+				300B22222C40E8D700CB0250 /* AppDelegate.swift */,
+				300B22242C40F60A00CB0250 /* DNSCache.swift */,
+			);
+			path = hoshiba;
+			sourceTree = "<group>";
+		};
+		300B22112C40E1DC00CB0250 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				300B22122C40E1DC00CB0250 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E0E660F4449CBFF54C039D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B897A6D3CC3F48C7D4BA6374 /* Pods_hoshiba.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8AAD1AAA67DFD7E68C3AF7F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E97244F423999DD6372BC498 /* Pods-hoshiba.debug.xcconfig */,
+				E42F16264B9E1D0C1059E94F /* Pods-hoshiba.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		300B22072C40E1DB00CB0250 /* hoshiba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 300B22172C40E1DC00CB0250 /* Build configuration list for PBXNativeTarget "hoshiba" */;
+			buildPhases = (
+				E7E7CC717B1DBEC4386256EC /* [CP] Check Pods Manifest.lock */,
+				300B22042C40E1DB00CB0250 /* Sources */,
+				300B22052C40E1DB00CB0250 /* Frameworks */,
+				300B22062C40E1DB00CB0250 /* Resources */,
+				16EDAF575BD546D400A024C7 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hoshiba;
+			productName = hoshiba;
+			productReference = 300B22082C40E1DB00CB0250 /* hoshiba.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		300B22002C40E1DB00CB0250 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					300B22072C40E1DB00CB0250 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 300B22032C40E1DB00CB0250 /* Build configuration list for PBXProject "hoshiba" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 300B21FF2C40E1DB00CB0250;
+			productRefGroup = 300B22092C40E1DB00CB0250 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				300B22072C40E1DB00CB0250 /* hoshiba */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		300B22062C40E1DB00CB0250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300B22212C40E7B500CB0250 /* Info.plist in Resources */,
+				300B221B2C40E56300CB0250 /* Podfile in Resources */,
+				300B22132C40E1DC00CB0250 /* Preview Assets.xcassets in Resources */,
+				300B22102C40E1DC00CB0250 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16EDAF575BD546D400A024C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hoshiba/Pods-hoshiba-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-hoshiba/Pods-hoshiba-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-hoshiba/Pods-hoshiba-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7E7CC717B1DBEC4386256EC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-hoshiba-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		300B22042C40E1DB00CB0250 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				300B22252C40F60A00CB0250 /* DNSCache.swift in Sources */,
+				300B221F2C40E5A100CB0250 /* MainController.swift in Sources */,
+				300B220E2C40E1DB00CB0250 /* ContentView.swift in Sources */,
+				300B221D2C40E59300CB0250 /* StatusBarController.swift in Sources */,
+				300B22232C40E8D700CB0250 /* AppDelegate.swift in Sources */,
+				300B220C2C40E1DB00CB0250 /* hoshibaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		300B22152C40E1DC00CB0250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		300B22162C40E1DC00CB0250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		300B22182C40E1DC00CB0250 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E97244F423999DD6372BC498 /* Pods-hoshiba.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hoshiba/hoshiba.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hoshiba/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V5P3KZ3LS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ssut.hoshiba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		300B22192C40E1DC00CB0250 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E42F16264B9E1D0C1059E94F /* Pods-hoshiba.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = hoshiba/hoshiba.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"hoshiba/Preview Content\"";
+				DEVELOPMENT_TEAM = 2V5P3KZ3LS;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = me.ssut.hoshiba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		300B22032C40E1DB00CB0250 /* Build configuration list for PBXProject "hoshiba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300B22152C40E1DC00CB0250 /* Debug */,
+				300B22162C40E1DC00CB0250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		300B22172C40E1DC00CB0250 /* Build configuration list for PBXNativeTarget "hoshiba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				300B22182C40E1DC00CB0250 /* Debug */,
+				300B22192C40E1DC00CB0250 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 300B22002C40E1DB00CB0250 /* Project object */;
+}
